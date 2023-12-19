@@ -1,0 +1,32 @@
+.slide{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-x: hidden;
+    background-color: #000000;
+    margin: 50px ;
+    border-radius: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+   
+}
+.slide>img{
+    width: 150px;
+    margin: 30px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.front-end > h3{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    text-decoration:underline;
+    
+ 
+}

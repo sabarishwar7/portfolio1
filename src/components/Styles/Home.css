@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 1;
+    margin-top: 50px;
+    
+}
+
+.txt-home{
+    margin: 4rem 5rem ;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+    
+}
+.txt-home>h1{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 86px;
+    display: flex;
+    flex-shrink: 2;
+    
+    
+}
+.txt-home> span{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Lobster', sans-serif;
+    flex-shrink: 1;
+    display: flex;
+    
+}
+svg{
+    width: 635.943px;
+height: 594.5px;
+flex-shrink: 1;
+color: #ffffff;
+top: 145.5px;
+left: 865.5px;
+
+}
+

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
+body{
+    background-color:#CE8AEE ;
+    color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
