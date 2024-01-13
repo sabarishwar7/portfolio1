@@ -15,7 +15,7 @@ function Home(){
             <span><TypeAnimation 
         sequence={[
           "UI/UX designer", 1500,
-          "A web Developer", 1500,
+          "computer Science Engineer", 1500,
           "3D model Designer",1500,
         
       ]}

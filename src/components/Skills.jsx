@@ -1,7 +1,8 @@
 import "./styles/Skills.css";
 
 import c from "../assets/icons/c.png";
-import python from "../assets/icons/python.png";
+import cp from "../assets/icons/c++.svg";
+import python from "../assets/icons/python.svg";
 import html from "../assets/icons/html.png";
 import css from "../assets/icons/css.png";
 import javascript from "../assets/icons/javascript.png";
@@ -11,6 +12,8 @@ import express from "../assets/icons/expressjs.png";
 import nodejs from "../assets/icons/nodejs.png";
 import tailwind from "../assets/icons/tailwind.png";
 import mongodb from "../assets/icons/mongodb.png"
+import Figma from "../assets/icons/Figma.svg";
+import dj from "../assets/icons/django.svg";
 
 
 function Skills(){
@@ -28,22 +31,27 @@ function Skills(){
                         <img src={c} alt="" />
                     </p>
     </div>{*/}
-                <div className="front-end">
-                    <h3>Front-end Development Kit</h3>
+                
+                    
                     <p className="slide">
-                        <img src={html} alt="" />
-                        <img src={c} alt="" />
-                        <img src={css} alt="" />
+                    <img src={c} alt="C" />
+                    <img src={cp} alt="C++" />
+                    <img src={html} alt="HTML 5" />
+                    <img src={css} alt="CSS 3" />
+                    <img src={javascript} alt="JavaScript" /> 
+                    <img src={python} alt="Python" />
+                    <img src={dj} alt="Django" />                        
+                    {/*}<img src={tailwind} alt="Tailwind CSS" />
+                    <img src={mongodb} alt="Mongo DB" />
+                    <img src={express} alt="Express JS" />{*/}
+                    <img src={react} alt="React" />
+                    <img src={nodejs} alt="Node JS" />
+                    <img src={java} alt="JAVA" />
+                    <img src={Figma} alt="Figma" />
                         
-                        <img src={java} alt="" />
-                        <img src={javascript} alt="" />
-                        <img src={tailwind} alt="" />
-                       {/*} <img src={mongodb} alt="" />
-                        <img src={express} alt="" />{*/}
-                        <img src={react} alt="" />
-                        <img src={nodejs} alt="" />
+
                     </p>
-                </div>
+               
             </div>
             
         </div>

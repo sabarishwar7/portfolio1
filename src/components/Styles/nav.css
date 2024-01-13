@@ -8,6 +8,7 @@
     align-items: center;
     flex-shrink: 1;
     transition: background-color 300ms;
+    z-index: 1;
     
     
     
@@ -59,4 +60,18 @@ ul >li{
     width: 50px;
     font-size: 25px;
     margin-left: 25px;
+}
+
+ ul li.active {
+    color: rgb(34 197 94);
+   }
+
+li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-sticky li > a{
+    text-decoration: none;
+    color: black;
 }

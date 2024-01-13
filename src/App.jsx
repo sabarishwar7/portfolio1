@@ -6,15 +6,19 @@ import Reachme from "./components/Reachme";
 import Navigation from "./components/Navigation";
 
 
+
 function App() {
-  return (
-    <div>
+return (
+
+  <div>
       <Navigation />
       <Home />
       <Aboutme />
       <Skills />
+     
      {/*} <Projects /> {*/}
       <Reachme />
+      
 
     </div>
     

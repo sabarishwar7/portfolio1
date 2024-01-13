@@ -23,15 +23,15 @@ function Navigation(){
             <p className="saba">SABA</p>
             <ul>
                 <li>
-                    Home</li>                
+                   <a href="/">Home</a></li>                
                 <li>
-                    About me</li>
+                <a href="/">About me</a></li>
                 <li>
-                    Skills</li>{/*}
+                <a href="/">Skills</a></li>{/*}
                 <li>
     Projects</li>{*/}
                 <li>
-                    Reach me</li>
+                <a href="/">Reach Me</a></li>
             </ul>
         </div>
         
