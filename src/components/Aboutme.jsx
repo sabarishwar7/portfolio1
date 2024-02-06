@@ -1,6 +1,6 @@
 import "./styles/Aboutme.css"
 import abt from "../assets/abtme-img.svg"
-import CV from "../assets/Sabarishwar_Resume.pdf"
+import CV from "../assets/CV.pdf"
 
 function Aboutme(){
 
@@ -9,7 +9,7 @@ function Aboutme(){
         const pdfUrl = CV;
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "Sabarishwar_resume.pdf"; // specify the filename
+        link.download = "Sabarishwar_Resume.pdf"; // specify the filename
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
